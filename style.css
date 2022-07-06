@@ -1,17 +1,34 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'Nunito', sans-serif;
 }
 
 .jumbotron{
-  background-color: pink;
+  background-color: #9a529b;
   align-content: center;
+  color: white;
+}
+
+
+/*Link Formatting*/
+a{
+  color: lightcyan;
+  text-decoration: none;
+}
+a:hover {
+  color: lightblue;
+  text-decoration: none
+}
+a:visited {
+  color: lightskyblue;
 }
 
 p{
-  font-family: 'Nunito', sans-serif; 
+  font-size: 15px;
 }
 
-a{
-  color: navy;
+ul {
+  list-style-type: circle;
+  font-size: 15px;
 }
