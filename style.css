@@ -32,3 +32,12 @@ ul {
   list-style-type: circle;
   font-size: 15px;
 }
+
+img{
+  margin: 10px auto 20px;
+  display: block;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  background-color: black;
+}
